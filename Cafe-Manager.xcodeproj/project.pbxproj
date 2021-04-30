@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0AB19540753514BF04BE7766 /* Pods_Cafe_ManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C4137064C3839FD8F5D700 /* Pods_Cafe_ManagerTests.framework */; };
+		2543107F263C7DBB00224C5D /* ValidationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543107E263C7DBB00224C5D /* ValidationServices.swift */; };
+		2557DAB8263C6A290020F488 /* ValidationServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557DAB7263C6A290020F488 /* ValidationServiceTest.swift */; };
 		259D8D88263ADED7003DF895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8D87263ADED7003DF895 /* AppDelegate.swift */; };
 		259D8D8A263ADED7003DF895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8D89263ADED7003DF895 /* SceneDelegate.swift */; };
 		259D8D8C263ADED7003DF895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8D8B263ADED7003DF895 /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		2479F09294157F095B303DDB /* Pods-Cafe-ManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-ManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-ManagerTests/Pods-Cafe-ManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2543107E263C7DBB00224C5D /* ValidationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationServices.swift; sourceTree = "<group>"; };
+		2557DAB7263C6A290020F488 /* ValidationServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationServiceTest.swift; sourceTree = "<group>"; };
 		259D8D84263ADED7003DF895 /* Cafe-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cafe-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259D8D87263ADED7003DF895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259D8D89263ADED7003DF895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 			children = (
 				259D8DA1263ADED7003DF895 /* Cafe_ManagerTests.swift */,
 				259D8DA3263ADED7003DF895 /* Info.plist */,
+				2543107E263C7DBB00224C5D /* ValidationServices.swift */,
 			);
 			path = "Cafe-ManagerTests";
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				259D8DAC263ADED7003DF895 /* Cafe_ManagerUITests.swift */,
+				2557DAB7263C6A290020F488 /* ValidationServiceTest.swift */,
 				259D8DAE263ADED7003DF895 /* Info.plist */,
 			);
 			path = "Cafe-ManagerUITests";
@@ -520,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2543107F263C7DBB00224C5D /* ValidationServices.swift in Sources */,
 				259D8DA2263ADED7003DF895 /* Cafe_ManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2557DAB8263C6A290020F488 /* ValidationServiceTest.swift in Sources */,
 				259D8DAD263ADED7003DF895 /* Cafe_ManagerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

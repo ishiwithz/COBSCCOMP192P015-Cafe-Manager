@@ -17,7 +17,7 @@ class CategoryViewController: UIViewController {
     
     @IBOutlet weak var txtCategory: UITextField!
     
-    let ref = Database.database().reference()
+    var ref: DatabaseReference!
     
     var Foodcategories : [FoodCategory] = []
     
@@ -30,7 +30,11 @@ class CategoryViewController: UIViewController {
         
         Categorytableview.register(UINib(nibName: "CategoryTableViewCell", bundle: nil), forCellReuseIdentifier: "CategoryCellIdentifier")
                 
+        ref = Database.database().reference()
+        
         getcategoryData()
+        
+        Categorytableview.reloadData();
         
         
     }
@@ -89,7 +93,7 @@ extension CategoryViewController {
                         
                         self.Foodcategories.append(FoodCategory(ID : category.key,Name: catinfo["Name"] as! String))
                         
-                        print(self.Foodcategories)
+                        //print(self.Foodcategories)
                         
                     }
                 }
