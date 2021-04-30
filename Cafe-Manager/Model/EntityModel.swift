@@ -27,6 +27,7 @@ struct FoodItem {
 
 struct FoodCategory {
     
+    var ID : String
     var Name : String
     
 }

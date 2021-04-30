@@ -20,6 +20,9 @@
 		25D39E5A263BCD8100B6BBFD /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D39E59263BCD8100B6BBFD /* CategoryViewController.swift */; };
 		25D39E6B263BDE0600B6BBFD /* PreViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D39E69263BDE0600B6BBFD /* PreViewTableViewCell.swift */; };
 		25D39E6C263BDE0600B6BBFD /* PreViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D39E6A263BDE0600B6BBFD /* PreViewTableViewCell.xib */; };
+		25D39E72263BF39B00B6BBFD /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D39E70263BF39B00B6BBFD /* CategoryTableViewCell.swift */; };
+		25D39E73263BF39B00B6BBFD /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D39E71263BF39B00B6BBFD /* CategoryTableViewCell.xib */; };
+		25D39E8F263C5ABC00B6BBFD /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D39E8E263C5ABC00B6BBFD /* AccountViewController.swift */; };
 		25F5707D263B2B40003E9DC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F5707C263B2B40003E9DC7 /* GoogleService-Info.plist */; };
 		25F57092263B3411003E9DC7 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F57091263B3411003E9DC7 /* SessionManager.swift */; };
 		25F570B4263B3A26003E9DC7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570B3263B3A26003E9DC7 /* LoginViewController.swift */; };
@@ -70,6 +73,9 @@
 		25D39E59263BCD8100B6BBFD /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		25D39E69263BDE0600B6BBFD /* PreViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewTableViewCell.swift; sourceTree = "<group>"; };
 		25D39E6A263BDE0600B6BBFD /* PreViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreViewTableViewCell.xib; sourceTree = "<group>"; };
+		25D39E70263BF39B00B6BBFD /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		25D39E71263BF39B00B6BBFD /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		25D39E8E263C5ABC00B6BBFD /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		25F5707C263B2B40003E9DC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25F57091263B3411003E9DC7 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		25F570B3263B3A26003E9DC7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -199,6 +205,7 @@
 				25F570E1263BA9E2003E9DC7 /* SegmentViewController.swift */,
 				25F570FE263BB78D003E9DC7 /* PreviewViewController.swift */,
 				25D39E59263BCD8100B6BBFD /* CategoryViewController.swift */,
+				25D39E8E263C5ABC00B6BBFD /* AccountViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,6 +240,8 @@
 			children = (
 				25D39E69263BDE0600B6BBFD /* PreViewTableViewCell.swift */,
 				25D39E6A263BDE0600B6BBFD /* PreViewTableViewCell.xib */,
+				25D39E70263BF39B00B6BBFD /* CategoryTableViewCell.swift */,
+				25D39E71263BF39B00B6BBFD /* CategoryTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -358,6 +367,7 @@
 				259D8D97263ADED7003DF895 /* LaunchScreen.storyboard in Resources */,
 				25D39E6C263BDE0600B6BBFD /* PreViewTableViewCell.xib in Resources */,
 				25F5707D263B2B40003E9DC7 /* GoogleService-Info.plist in Resources */,
+				25D39E73263BF39B00B6BBFD /* CategoryTableViewCell.xib in Resources */,
 				259D8D94263ADED7003DF895 /* Assets.xcassets in Resources */,
 				259D8D8F263ADED7003DF895 /* Main.storyboard in Resources */,
 			);
@@ -489,9 +499,11 @@
 			files = (
 				25F570E2263BA9E2003E9DC7 /* SegmentViewController.swift in Sources */,
 				25F570B4263B3A26003E9DC7 /* LoginViewController.swift in Sources */,
+				25D39E8F263C5ABC00B6BBFD /* AccountViewController.swift in Sources */,
 				259D8D8C263ADED7003DF895 /* ViewController.swift in Sources */,
 				25F570DD263B8F81003E9DC7 /* ForgetPasswordViewController.swift in Sources */,
 				25F570BA263B43AA003E9DC7 /* RegisterViewController.swift in Sources */,
+				25D39E72263BF39B00B6BBFD /* CategoryTableViewCell.swift in Sources */,
 				25F570CD263B7927003E9DC7 /* EntityModel.swift in Sources */,
 				25F57092263B3411003E9DC7 /* SessionManager.swift in Sources */,
 				259D8D88263ADED7003DF895 /* AppDelegate.swift in Sources */,

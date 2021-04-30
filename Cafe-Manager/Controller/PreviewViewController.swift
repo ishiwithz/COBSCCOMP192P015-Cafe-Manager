@@ -40,7 +40,7 @@ extension PreviewViewController {
                 
                 for categorykeys in data {
                     
-                    self.Foodcategories.append(FoodCategory(Name: categorykeys.key ))
+                    self.Foodcategories.append(FoodCategory(ID: "",Name: categorykeys.key ))
                 }
                 
                 for category in data {
@@ -50,6 +50,7 @@ extension PreviewViewController {
                     if let items = category.value as? [String : Any] {
                         
                         for Singleitem in items {
+                            
                             
                             if let iteminfo = Singleitem.value as? [String : Any]{
                                 
@@ -67,9 +68,11 @@ extension PreviewViewController {
                         
                     }
                     
-                    self.PreviewTable.reloadData()
+                    
                     
                 }
+                
+                self.PreviewTable.reloadData()
                    
                 
             }
@@ -82,8 +85,7 @@ extension PreviewViewController {
 extension PreviewViewController : UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return Foodcategories.count
+        return 1 //Foodcategories.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

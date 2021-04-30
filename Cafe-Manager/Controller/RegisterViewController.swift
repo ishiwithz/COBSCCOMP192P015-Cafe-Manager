@@ -87,13 +87,14 @@ class RegisterViewController: UIViewController {
     }
     
     func saveUserData(user: User){
-        let randomInt = Int.random(in: 1..<10000)
+       //let randomInt = Int.random(in: 1..<10000)
         let userData = [
             "UserEmail" : user.userEmail,
             "UserPhone" : user.userPhone,
             "UserPassword" : user.userPassword]
         
-        self.ref.child("Users").child("\(randomInt)").setValue(userData)
+       // self.ref.child("Users").child("\(randomInt)").setValue(userData)
+        self.ref.child("Users").childByAutoId().setValue(userData)
         {
             (error, ref) in
             
