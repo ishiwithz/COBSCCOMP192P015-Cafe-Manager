@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB19540753514BF04BE7766 /* Pods_Cafe_ManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C4137064C3839FD8F5D700 /* Pods_Cafe_ManagerTests.framework */; };
 		259D8D88263ADED7003DF895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8D87263ADED7003DF895 /* AppDelegate.swift */; };
 		259D8D8A263ADED7003DF895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8D89263ADED7003DF895 /* SceneDelegate.swift */; };
 		259D8D8C263ADED7003DF895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8D8B263ADED7003DF895 /* ViewController.swift */; };
@@ -16,6 +17,20 @@
 		259D8D97263ADED7003DF895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259D8D95263ADED7003DF895 /* LaunchScreen.storyboard */; };
 		259D8DA2263ADED7003DF895 /* Cafe_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8DA1263ADED7003DF895 /* Cafe_ManagerTests.swift */; };
 		259D8DAD263ADED7003DF895 /* Cafe_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8DAC263ADED7003DF895 /* Cafe_ManagerUITests.swift */; };
+		25D39E5A263BCD8100B6BBFD /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D39E59263BCD8100B6BBFD /* CategoryViewController.swift */; };
+		25D39E6B263BDE0600B6BBFD /* PreViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D39E69263BDE0600B6BBFD /* PreViewTableViewCell.swift */; };
+		25D39E6C263BDE0600B6BBFD /* PreViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D39E6A263BDE0600B6BBFD /* PreViewTableViewCell.xib */; };
+		25F5707D263B2B40003E9DC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F5707C263B2B40003E9DC7 /* GoogleService-Info.plist */; };
+		25F57092263B3411003E9DC7 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F57091263B3411003E9DC7 /* SessionManager.swift */; };
+		25F570B4263B3A26003E9DC7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570B3263B3A26003E9DC7 /* LoginViewController.swift */; };
+		25F570BA263B43AA003E9DC7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570B9263B43AA003E9DC7 /* RegisterViewController.swift */; };
+		25F570C7263B4951003E9DC7 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570C6263B4951003E9DC7 /* InputValidator.swift */; };
+		25F570CD263B7927003E9DC7 /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570CC263B7927003E9DC7 /* EntityModel.swift */; };
+		25F570DD263B8F81003E9DC7 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570DC263B8F81003E9DC7 /* ForgetPasswordViewController.swift */; };
+		25F570E2263BA9E2003E9DC7 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570E1263BA9E2003E9DC7 /* SegmentViewController.swift */; };
+		25F570FF263BB78D003E9DC7 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F570FE263BB78D003E9DC7 /* PreviewViewController.swift */; };
+		6399DA1ED28F25EA29DF27FB /* Pods_Cafe_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC80FC93CD761FCEDF9750 /* Pods_Cafe_Manager.framework */; };
+		BF201F662F316C3F65E6207D /* Pods_Cafe_Manager_Cafe_ManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B340CD0C641D44B706E0A3A /* Pods_Cafe_Manager_Cafe_ManagerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2479F09294157F095B303DDB /* Pods-Cafe-ManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-ManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-ManagerTests/Pods-Cafe-ManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		259D8D84263ADED7003DF895 /* Cafe-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cafe-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259D8D87263ADED7003DF895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259D8D89263ADED7003DF895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,26 @@
 		259D8DA8263ADED7003DF895 /* Cafe-ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cafe-ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259D8DAC263ADED7003DF895 /* Cafe_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe_ManagerUITests.swift; sourceTree = "<group>"; };
 		259D8DAE263ADED7003DF895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D39E59263BCD8100B6BBFD /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		25D39E69263BDE0600B6BBFD /* PreViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewTableViewCell.swift; sourceTree = "<group>"; };
+		25D39E6A263BDE0600B6BBFD /* PreViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreViewTableViewCell.xib; sourceTree = "<group>"; };
+		25F5707C263B2B40003E9DC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25F57091263B3411003E9DC7 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		25F570B3263B3A26003E9DC7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		25F570B9263B43AA003E9DC7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		25F570C6263B4951003E9DC7 /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
+		25F570CC263B7927003E9DC7 /* EntityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityModel.swift; sourceTree = "<group>"; };
+		25F570DC263B8F81003E9DC7 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		25F570E1263BA9E2003E9DC7 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		25F570FE263BB78D003E9DC7 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		35C44710ECCC0D1F8C1426F5 /* Pods-Cafe-Manager-Cafe-ManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager-Cafe-ManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager-Cafe-ManagerUITests/Pods-Cafe-Manager-Cafe-ManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68D165E50C75075B3FA84B32 /* Pods-Cafe-ManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-ManagerTests.release.xcconfig"; path = "Target Support Files/Pods-Cafe-ManagerTests/Pods-Cafe-ManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B340CD0C641D44B706E0A3A /* Pods_Cafe_Manager_Cafe_ManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_Manager_Cafe_ManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A6DFF3B929EE87E90DDFF3 /* Pods-Cafe-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		91D840D6942A25D62FE21876 /* Pods-Cafe-Manager-Cafe-ManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager-Cafe-ManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager-Cafe-ManagerUITests/Pods-Cafe-Manager-Cafe-ManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C4137064C3839FD8F5D700 /* Pods_Cafe_ManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_ManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C3AA9F4EDF16151A4AF41B /* Pods-Cafe-Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.release.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.release.xcconfig"; sourceTree = "<group>"; };
+		FDCC80FC93CD761FCEDF9750 /* Pods_Cafe_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6399DA1ED28F25EA29DF27FB /* Pods_Cafe_Manager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB19540753514BF04BE7766 /* Pods_Cafe_ManagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +110,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF201F662F316C3F65E6207D /* Pods_Cafe_Manager_Cafe_ManagerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22683D66E9EF64927C72FA91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84A6DFF3B929EE87E90DDFF3 /* Pods-Cafe-Manager.debug.xcconfig */,
+				F0C3AA9F4EDF16151A4AF41B /* Pods-Cafe-Manager.release.xcconfig */,
+				91D840D6942A25D62FE21876 /* Pods-Cafe-Manager-Cafe-ManagerUITests.debug.xcconfig */,
+				35C44710ECCC0D1F8C1426F5 /* Pods-Cafe-Manager-Cafe-ManagerUITests.release.xcconfig */,
+				2479F09294157F095B303DDB /* Pods-Cafe-ManagerTests.debug.xcconfig */,
+				68D165E50C75075B3FA84B32 /* Pods-Cafe-ManagerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		259D8D7B263ADED7003DF895 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				259D8DA0263ADED7003DF895 /* Cafe-ManagerTests */,
 				259D8DAB263ADED7003DF895 /* Cafe-ManagerUITests */,
 				259D8D85263ADED7003DF895 /* Products */,
+				22683D66E9EF64927C72FA91 /* Pods */,
+				3E91417E2852EB9AD3AAA50F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +155,17 @@
 		259D8D86263ADED7003DF895 /* Cafe-Manager */ = {
 			isa = PBXGroup;
 			children = (
+				25F57108263BBE9B003E9DC7 /* TableViewCell */,
+				25F570CB263B78EF003E9DC7 /* Model */,
+				25F57090263B33EE003E9DC7 /* Util */,
+				25F57082263B32F5003E9DC7 /* Controller */,
+				25F570FA263BB074003E9DC7 /* View */,
 				259D8D87263ADED7003DF895 /* AppDelegate.swift */,
 				259D8D89263ADED7003DF895 /* SceneDelegate.swift */,
-				259D8D8B263ADED7003DF895 /* ViewController.swift */,
-				259D8D8D263ADED7003DF895 /* Main.storyboard */,
 				259D8D93263ADED7003DF895 /* Assets.xcassets */,
 				259D8D95263ADED7003DF895 /* LaunchScreen.storyboard */,
 				259D8D98263ADED7003DF895 /* Info.plist */,
+				25F5707C263B2B40003E9DC7 /* GoogleService-Info.plist */,
 				259D8D90263ADED7003DF895 /* Cafe_Manager.xcdatamodeld */,
 			);
 			path = "Cafe-Manager";
@@ -131,6 +189,64 @@
 			path = "Cafe-ManagerUITests";
 			sourceTree = "<group>";
 		};
+		25F57082263B32F5003E9DC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				259D8D8B263ADED7003DF895 /* ViewController.swift */,
+				25F570B3263B3A26003E9DC7 /* LoginViewController.swift */,
+				25F570B9263B43AA003E9DC7 /* RegisterViewController.swift */,
+				25F570DC263B8F81003E9DC7 /* ForgetPasswordViewController.swift */,
+				25F570E1263BA9E2003E9DC7 /* SegmentViewController.swift */,
+				25F570FE263BB78D003E9DC7 /* PreviewViewController.swift */,
+				25D39E59263BCD8100B6BBFD /* CategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25F57090263B33EE003E9DC7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				25F57091263B3411003E9DC7 /* SessionManager.swift */,
+				25F570C6263B4951003E9DC7 /* InputValidator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		25F570CB263B78EF003E9DC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25F570CC263B7927003E9DC7 /* EntityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25F570FA263BB074003E9DC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				259D8D8D263ADED7003DF895 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25F57108263BBE9B003E9DC7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25D39E69263BDE0600B6BBFD /* PreViewTableViewCell.swift */,
+				25D39E6A263BDE0600B6BBFD /* PreViewTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		3E91417E2852EB9AD3AAA50F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC80FC93CD761FCEDF9750 /* Pods_Cafe_Manager.framework */,
+				6B340CD0C641D44B706E0A3A /* Pods_Cafe_Manager_Cafe_ManagerUITests.framework */,
+				C4C4137064C3839FD8F5D700 /* Pods_Cafe_ManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 259D8DB1263ADED7003DF895 /* Build configuration list for PBXNativeTarget "Cafe-Manager" */;
 			buildPhases = (
+				E92F8822C6E3D26D25B81469 /* [CP] Check Pods Manifest.lock */,
 				259D8D80263ADED7003DF895 /* Sources */,
 				259D8D81263ADED7003DF895 /* Frameworks */,
 				259D8D82263ADED7003DF895 /* Resources */,
+				8454AA8C5AFAF24CF5C4A9F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 259D8DB4263ADED7003DF895 /* Build configuration list for PBXNativeTarget "Cafe-ManagerTests" */;
 			buildPhases = (
+				B34DC31F7315AE321213A9A4 /* [CP] Check Pods Manifest.lock */,
 				259D8D99263ADED7003DF895 /* Sources */,
 				259D8D9A263ADED7003DF895 /* Frameworks */,
 				259D8D9B263ADED7003DF895 /* Resources */,
@@ -173,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 259D8DB7263ADED7003DF895 /* Build configuration list for PBXNativeTarget "Cafe-ManagerUITests" */;
 			buildPhases = (
+				8D1E151FF48DDC13B606E748 /* [CP] Check Pods Manifest.lock */,
 				259D8DA4263ADED7003DF895 /* Sources */,
 				259D8DA5263ADED7003DF895 /* Frameworks */,
 				259D8DA6263ADED7003DF895 /* Resources */,
+				429AF8B1CBF16A66D5C9F73B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +356,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				259D8D97263ADED7003DF895 /* LaunchScreen.storyboard in Resources */,
+				25D39E6C263BDE0600B6BBFD /* PreViewTableViewCell.xib in Resources */,
+				25F5707D263B2B40003E9DC7 /* GoogleService-Info.plist in Resources */,
 				259D8D94263ADED7003DF895 /* Assets.xcassets in Resources */,
 				259D8D8F263ADED7003DF895 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +379,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		429AF8B1CBF16A66D5C9F73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cafe-Manager-Cafe-ManagerUITests/Pods-Cafe-Manager-Cafe-ManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cafe-Manager-Cafe-ManagerUITests/Pods-Cafe-Manager-Cafe-ManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cafe-Manager-Cafe-ManagerUITests/Pods-Cafe-Manager-Cafe-ManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8454AA8C5AFAF24CF5C4A9F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1E151FF48DDC13B606E748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cafe-Manager-Cafe-ManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34DC31F7315AE321213A9A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cafe-ManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92F8822C6E3D26D25B81469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cafe-Manager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		259D8D80263ADED7003DF895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F570E2263BA9E2003E9DC7 /* SegmentViewController.swift in Sources */,
+				25F570B4263B3A26003E9DC7 /* LoginViewController.swift in Sources */,
 				259D8D8C263ADED7003DF895 /* ViewController.swift in Sources */,
+				25F570DD263B8F81003E9DC7 /* ForgetPasswordViewController.swift in Sources */,
+				25F570BA263B43AA003E9DC7 /* RegisterViewController.swift in Sources */,
+				25F570CD263B7927003E9DC7 /* EntityModel.swift in Sources */,
+				25F57092263B3411003E9DC7 /* SessionManager.swift in Sources */,
 				259D8D88263ADED7003DF895 /* AppDelegate.swift in Sources */,
+				25D39E5A263BCD8100B6BBFD /* CategoryViewController.swift in Sources */,
+				25F570C7263B4951003E9DC7 /* InputValidator.swift in Sources */,
+				25D39E6B263BDE0600B6BBFD /* PreViewTableViewCell.swift in Sources */,
 				259D8D92263ADED7003DF895 /* Cafe_Manager.xcdatamodeld in Sources */,
 				259D8D8A263ADED7003DF895 /* SceneDelegate.swift in Sources */,
+				25F570FF263BB78D003E9DC7 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +673,7 @@
 		};
 		259D8DB2263ADED7003DF895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A6DFF3B929EE87E90DDFF3 /* Pods-Cafe-Manager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +693,7 @@
 		};
 		259D8DB3263ADED7003DF895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C3AA9F4EDF16151A4AF41B /* Pods-Cafe-Manager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +713,7 @@
 		};
 		259D8DB5263ADED7003DF895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2479F09294157F095B303DDB /* Pods-Cafe-ManagerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +736,7 @@
 		};
 		259D8DB6263ADED7003DF895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D165E50C75075B3FA84B32 /* Pods-Cafe-ManagerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +759,7 @@
 		};
 		259D8DB8263ADED7003DF895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D840D6942A25D62FE21876 /* Pods-Cafe-Manager-Cafe-ManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +780,7 @@
 		};
 		259D8DB9263ADED7003DF895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C44710ECCC0D1F8C1426F5 /* Pods-Cafe-Manager-Cafe-ManagerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
